@@ -1,0 +1,1 @@
+export { default } from "file:///home/hodadis/hibirlink-2024/hibirlink/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"

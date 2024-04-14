@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Track */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px; /* Set the border radius for the scrollbar */
+  margin-top: 5px; /* Add a vertical margin to the scrollbar */
+  margin-bottom: 5px; /* Set the width of the scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #d4d4d4; /* Set the color of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #759ef0; /* Set the color of the scrollbar handle on hover */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FAFAFA; /* Set the color of the scrollbar track */
+}
+/* Track */
+::-webkit-scrollbar:horizontal {
+  height: 5px;
+  border-radius: 5px; /* Set the border radius for the scrollbar */
+  margin-top: 5px; /* Add a vertical margin to the scrollbar */
+  margin-bottom: 5px; /* Set the height of the horizontal scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: #d4d4d4; /* Set the color of the horizontal scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background-color: #759ef0; /* Set the color of the horizontal scrollbar handle on hover */
+}
+
+/* Track */
+::-webkit-scrollbar-track:horizontal {
+  background: #FAFAFA; /* Set the color of the horizontal scrollbar track */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

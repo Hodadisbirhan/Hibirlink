@@ -1,7 +1,8 @@
 import { useAuth } from "~~/store/auth";
 
 export default defineNuxtRouteMiddleware((to, from) => {
-  const { setToSignInPageFrom } = useAuth();
+  const { setToSignInPageFrom, token } = useAuth();
   setToSignInPageFrom(from.path);
-  return true;
+  if (token) return navigateTo("/");
+  else return true;
 });
